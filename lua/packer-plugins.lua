@@ -3,6 +3,9 @@ return require('packer').startup(function()
 	use ('wbthomason/packer.nvim')
 
 	--More plugins
+	use('nvim-lua/plenary.nvim')
+	use('ThePrimeagen/harpoon')
+	
 	use {
     "williamboman/mason.nvim",
     run = ":MasonUpdate" -- :MasonUpdate updates registry contents
