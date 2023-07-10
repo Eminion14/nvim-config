@@ -11,11 +11,13 @@ local cmp_action = require('lsp-zero').cmp_action()
 
 cmp.setup({
   mapping = {
-    -- `TAB` key to confirm completion
-    ['<TAB>'] = cmp.mapping.confirm({select = false}),
+    -- `ENTER` key to confirm completion
+    ['<CR>'] = cmp.mapping.confirm({select = false}),
+	['<C-k'] = cmp.mapping.select_prev_item(cmp_select),
+	['<C-j'] = cmp.mapping.select_next_item(cmp_select),
 
     -- Ctrl+Space to trigger completion menu
-    ['<leader>cc'] = cmp.mapping.complete(),
+    ['<C-Space>'] = cmp.mapping.complete(),
 
     -- Navigate between snippet placeholder
     ['<C-f>'] = cmp_action.luasnip_jump_forward(),
