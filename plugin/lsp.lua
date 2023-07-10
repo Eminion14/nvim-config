@@ -13,8 +13,8 @@ cmp.setup({
   mapping = {
     -- `ENTER` key to confirm completion
     ['<CR>'] = cmp.mapping.confirm({select = false}),
-	['<C-k'] = cmp.mapping.select_prev_item(cmp_select),
-	['<C-j'] = cmp.mapping.select_next_item(cmp_select),
+	['<C-b'] = cmp.mapping.select_prev_item(cmp_select),
+	['<C-n'] = cmp.mapping.select_next_item(cmp_select),
 
     -- Ctrl+Space to trigger completion menu
     ['<C-Space>'] = cmp.mapping.complete(),
