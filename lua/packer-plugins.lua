@@ -3,7 +3,7 @@ return require('packer').startup(function()
 	use ('wbthomason/packer.nvim')
 
 	--More plugins
-	use({ 'rose-pine/neovim', as = 'rose-pine' })
+	use('EdenEast/nightfox.nvim') 
 
 	use('ThePrimeagen/harpoon')
 	
