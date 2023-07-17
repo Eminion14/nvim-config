@@ -4,7 +4,6 @@ return require('packer').startup(function()
 
 	--More plugins
 	use('EdenEast/nightfox.nvim') 
-	use('nvim-tree/nvim-tree.lua')
 
 	use('ThePrimeagen/harpoon')
 	
