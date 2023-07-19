@@ -1,4 +1,5 @@
 vim.g.mapleader = " "
+vim.opt.guicursor = ""
 
 vim.keymap.set('i', 'kj', '<ESC>', {noremap = true})
 vim.keymap.set('v', 'kj', '<ESC>', {noremap = true})
