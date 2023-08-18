@@ -124,11 +124,6 @@ _G.packer_plugins = {
     path = "/home/eminion/.local/share/nvim/site/pack/packer/start/onedark.nvim",
     url = "https://github.com/navarasu/onedark.nvim"
   },
-  ["onedark.vim"] = {
-    loaded = true,
-    path = "/home/eminion/.local/share/nvim/site/pack/packer/start/onedark.vim",
-    url = "https://github.com/joshdick/onedark.vim"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/eminion/.local/share/nvim/site/pack/packer/start/packer.nvim",
