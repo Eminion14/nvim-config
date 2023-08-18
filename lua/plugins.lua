@@ -3,7 +3,7 @@ return require('packer').startup(function()
 	use ('wbthomason/packer.nvim')
 
 	--More plugins
-	use('EdenEast/nightfox.nvim') 
+	use('joshdick/onedark.vim') 
 
 	use('ThePrimeagen/harpoon')
 	
